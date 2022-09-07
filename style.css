@@ -1,0 +1,57 @@
+
+
+.container{
+    height: 95vh;
+}
+
+#image-1{
+    background-image: url("./pawpaw.jpg");
+}
+#image-2{
+    background-image: url("./orange.jpg");
+}
+#image-3{
+    background-image: url("./apple-fruit.jpg");
+}
+#image-4{
+    background-image: url("./strawberry.jpg");
+}
+
+.plate {
+    height:80vh;
+    margin: 4rem;
+    flex: 0.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    box-shadow: 0.5rem 1rem;
+    box-shadow: blue;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: all 1000ms ease-in;
+    
+}
+
+.plate.active{
+    height: 10vh;
+}
+    
+.plate.active{
+    opacity: 1;
+    transition: opacity 1s ease-in 1.2s;
+}
+
+
+.plate h2{
+    position: absolute;
+    top: 10rem;
+    left: 25rem;
+    color: blue;
+    font-style: italic;
+    font-weight: bolder;
+    
+    
+}
+
+
